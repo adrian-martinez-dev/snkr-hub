@@ -3,6 +3,7 @@ import CartCard from "../components/CartCard";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { checkoutCart } from "../redux/slices/CartSlice";
+import { InlineCheckout } from "tonder-sdk-test";
 
 import toast from "react-hot-toast";
 
@@ -12,11 +13,28 @@ const Cart = () => {
 
   const [total, setTotal] = useState(0);
   const navigate = useNavigate();
+
   useEffect(() => {
     setTotal(
       cart.reduce((acc, curr) => acc + curr.retail_price_cents * curr.qty, 0)
     );
   }, [cart]);
+
+  const checkoutStyle = {
+    marginTop: "2rem",
+    overflow: "hidden",
+    transition: "max-height 0.3s",
+  };
+
+  useEffect(()=>{
+    const apiKey = "";
+    const totalElement = total;
+    const inlineCheckout = new InlineCheckout({
+      apiKey: apiKey,
+      totalElementId: totalElement,
+    });
+    inlineCheckout.injectCheckout();
+  }, [])
 
   const checkout = () => {
     toast.success("Order Placed Successfully");
@@ -24,6 +42,7 @@ const Cart = () => {
     dispatch(checkoutCart());
     navigate("/");
   };
+
   return (
     <div>
       <div>
@@ -57,8 +76,10 @@ const Cart = () => {
                     TOTAL ITEMS : {cart.length}
                   </h1>
                   <h1 className="text-xl dark:text-white md:text-5xl font-bold text-slate-500">
-                    TOTAL PRICE : ₹ {total}
+                    TOTAL PRICE : $ {total}
                   </h1>
+                </div>
+                <div style={{ ...checkoutStyle }} id="tonder-checkout">
                 </div>
                 <div>
                   <button
