@@ -27,11 +27,12 @@ const Cart = () => {
   };
 
   useEffect(()=>{
-    const apiKey = "";
-    const totalElement = total;
+    const apiKey = import.meta.env.VITE_TONDER_API_KEY;
+    const totalElement = document.querySelector("#cart-total");
     const inlineCheckout = new InlineCheckout({
       apiKey: apiKey,
       totalElementId: totalElement,
+      returnUrl: window.location.href
     });
     inlineCheckout.injectCheckout();
   }, [])
@@ -70,25 +71,25 @@ const Cart = () => {
                 </div>
               </div>
             ) : (
-              <div className=" h-[200px] mt-[40px] w-[300px] md:w-[600px] p-4 flex flex-col justify-between">
+              <div className="mt-[40px] w-[300px] md:w-[600px] p-4 flex flex-col">
                 <div>
                   <h1 className="text-xl md:text-4xl font-bold text-slate-300 hover:text-slate-500">
                     TOTAL ITEMS : {cart.length}
                   </h1>
                   <h1 className="text-xl dark:text-white md:text-5xl font-bold text-slate-500">
-                    TOTAL PRICE : $ {total}
+                    TOTAL PRICE : $ <span id="cart-total">{total}</span>
                   </h1>
                 </div>
                 <div style={{ ...checkoutStyle }} id="tonder-checkout">
                 </div>
-                <div>
-                  <button
-                    className="bg-[#2a2a2a] w-full text-white p-2 rounded-md cursor-pointer hover:bg-black"
-                    onClick={checkout}
-                  >
-                    Checkout
-                  </button>
-                </div>
+                {/* <div> */}
+                {/*   <button */}
+                {/*     className="bg-[#2a2a2a] w-full text-white p-2 rounded-md cursor-pointer hover:bg-black" */}
+                {/*     onClick={checkout} */}
+                {/*   > */}
+                {/*     Checkout */}
+                {/*   </button> */}
+                {/* </div> */}
               </div>
             )}
           </div>

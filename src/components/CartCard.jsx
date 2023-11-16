@@ -38,7 +38,7 @@ const CartCard = ({ item }) => {
               height={150}
             />
           </div>
-          <div className="flex  justify-between dark:text-white">
+          <div className="flex justify-between dark:text-white">
             <div className="flex flex-col ml-[20px] gap-y-2 overflow-y-hidden">
               <div className="text-xs font-bold tracking-normal mr-1 md:text-sm sm:block">
                 {item.story_html.split(" ").slice(0, 28).join(" ") + "..."}
@@ -46,7 +46,7 @@ const CartCard = ({ item }) => {
 
               <div className="flex justify-evenly gap-x-8 mt-2 md:gap-x-0 md:justify-evenly">
                 <div className="mt-[10px] font-bold">
-                  ₹ {item.retail_price_cents}
+                  $ {item.retail_price_cents}
                 </div>
                 <div>
                   <div className="flex gap-x-6">
