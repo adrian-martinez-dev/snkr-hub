@@ -14,6 +14,14 @@ const Cart = () => {
   const [total, setTotal] = useState(0);
   const navigate = useNavigate();
 
+  const tonderResponse = (data) => {
+    console.log('data: ', data)
+    toast.success("Order Placed Successfully");
+    localStorage.removeItem("localCart");
+    dispatch(checkoutCart());
+    navigate("/");
+  }
+
   useEffect(() => {
     setTotal(
       cart.reduce((acc, curr) => acc + curr.retail_price_cents * curr.qty, 0)
@@ -27,22 +35,27 @@ const Cart = () => {
   };
 
   useEffect(()=>{
+    const items = cart.map(item => ({
+      "description": item.description,
+      "quantity": item.qty,
+      "price_unit": item.retail_price_cents,
+      "product_reference": item.id,
+      "name": item.name,
+      "amount_total": parseFloat((parseFloat(item.retail_price_cents) * parseFloat(item.qty)).toFixed(2))
+    }))
+
     const apiKey = import.meta.env.VITE_TONDER_API_KEY;
     const totalElement = document.querySelector("#cart-total");
     const inlineCheckout = new InlineCheckout({
       apiKey: apiKey,
       totalElementId: totalElement,
-      returnUrl: window.location.href
+      returnUrl: window.location.href,
+      cb: tonderResponse,
+      items,
     });
     inlineCheckout.injectCheckout();
+    return () => inlineCheckout.removeCheckout()
   }, [])
-
-  const checkout = () => {
-    toast.success("Order Placed Successfully");
-    localStorage.removeItem("localCart");
-    dispatch(checkoutCart());
-    navigate("/");
-  };
 
   return (
     <div>
@@ -82,14 +95,6 @@ const Cart = () => {
                 </div>
                 <div style={{ ...checkoutStyle }} id="tonder-checkout">
                 </div>
-                {/* <div> */}
-                {/*   <button */}
-                {/*     className="bg-[#2a2a2a] w-full text-white p-2 rounded-md cursor-pointer hover:bg-black" */}
-                {/*     onClick={checkout} */}
-                {/*   > */}
-                {/*     Checkout */}
-                {/*   </button> */}
-                {/* </div> */}
               </div>
             )}
           </div>
