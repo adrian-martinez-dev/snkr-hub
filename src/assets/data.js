@@ -34,7 +34,7 @@ export const data = {
       release_date: "2019-05-18T07:00:00.000Z",
       release_date_unix: 1558162800,
       release_year: 2019,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 7",
       size_range: [
@@ -78,7 +78,7 @@ export const data = {
       release_date: "2019-02-15T23:59:59.000Z",
       release_date_unix: 1550275199,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -118,7 +118,7 @@ export const data = {
       release_date: "2019-04-12T23:59:59.000Z",
       release_date_unix: 1555113599,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -158,7 +158,7 @@ export const data = {
       release_date: "2019-05-07T07:00:00.000Z",
       release_date_unix: 1557212400,
       release_year: 2019,
-      retail_price_cents: 1850,
+      retail_price_cents: 185000,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -203,7 +203,7 @@ export const data = {
       release_date: "2019-02-16T23:59:59.000Z",
       release_date_unix: 1550361599,
       release_year: 2019,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "used",
       silhouette: "Air Jordan 6",
       size_range: [
@@ -243,7 +243,7 @@ export const data = {
       release_date: "2019-05-17T07:00:00.000Z",
       release_date_unix: 1558076400,
       release_year: 2019,
-      retail_price_cents: 1900,
+      retail_price_cents: 190000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 12",
       size_range: [
@@ -283,7 +283,7 @@ export const data = {
       release_date: "2019-01-19T23:59:59.000Z",
       release_date_unix: 1547942399,
       release_year: 2019,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "used",
       silhouette: "Air Jordan 4",
       size_range: [
@@ -331,7 +331,7 @@ export const data = {
       release_date: "2018-05-23T23:59:59.000Z",
       release_date_unix: 1527119999,
       release_year: 2018,
-      retail_price_cents: 1900,
+      retail_price_cents: 190000,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -378,7 +378,7 @@ export const data = {
       release_date: "2018-04-14T23:59:59.000Z",
       release_date_unix: 1523750399,
       release_year: 2018,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -418,7 +418,7 @@ export const data = {
       release_date: "2019-05-04T23:59:59.000Z",
       release_date_unix: 1557014399,
       release_year: 2019,
-      retail_price_cents: 1400,
+      retail_price_cents: 140000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 4",
       size_range: [3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7],
@@ -454,7 +454,7 @@ export const data = {
       release_date: "2016-12-09T23:59:59.000Z",
       release_date_unix: 1481327999,
       release_year: 2016,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -494,7 +494,7 @@ export const data = {
       release_date: "2017-12-09T23:59:59.000Z",
       release_date_unix: 1512863999,
       release_year: 2017,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -534,7 +534,7 @@ export const data = {
       release_date: "2014-12-20T23:59:59.000Z",
       release_date_unix: 1419119999,
       release_year: 2014,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -579,7 +579,7 @@ export const data = {
       release_date: "2019-05-10T23:59:59.000Z",
       release_date_unix: 1557532799,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -618,7 +618,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 1100,
+      retail_price_cents: 110000,
       shoe_condition: "new_with_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -685,7 +685,7 @@ export const data = {
       release_date: "2019-05-04T23:59:59.000Z",
       release_date_unix: 1557014399,
       release_year: 2019,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 4",
       size_range: [
@@ -725,7 +725,7 @@ export const data = {
       release_date: "2019-05-18T07:00:00.000Z",
       release_date_unix: 1558162800,
       release_year: 2019,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 5",
       size_range: [
@@ -769,7 +769,7 @@ export const data = {
       release_date: "2018-06-09T23:59:59.000Z",
       release_date_unix: 1528588799,
       release_year: 2018,
-      retail_price_cents: 2250,
+      retail_price_cents: 225000,
       shoe_condition: "used",
       silhouette: "Air Jordan 4",
       size_range: [
@@ -809,7 +809,7 @@ export const data = {
       release_date: "2018-11-17T23:59:59.000Z",
       release_date_unix: 1542499199,
       release_year: 2018,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -877,7 +877,7 @@ export const data = {
       release_date: "2019-05-11T23:59:59.000Z",
       release_date_unix: 1557619199,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -941,7 +941,7 @@ export const data = {
       release_date: "2019-05-25T07:00:00.000Z",
       release_date_unix: 1558767600,
       release_year: 2019,
-      retail_price_cents: 1750,
+      retail_price_cents: 175000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -987,7 +987,7 @@ export const data = {
       release_date: "2018-02-24T23:59:59.000Z",
       release_date_unix: 1519516799,
       release_year: 2018,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -1032,7 +1032,7 @@ export const data = {
       release_date: "2018-12-14T23:59:59.000Z",
       release_date_unix: 1544831999,
       release_year: 2018,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -1072,7 +1072,7 @@ export const data = {
       release_date: "2018-11-23T23:59:59.000Z",
       release_date_unix: 1543017599,
       release_year: 2018,
-      retail_price_cents: 1900,
+      retail_price_cents: 190000,
       shoe_condition: "used",
       silhouette: "Air Jordan 12",
       size_range: [
@@ -1112,7 +1112,7 @@ export const data = {
       release_date: "2019-05-18T07:00:00.000Z",
       release_date_unix: 1558162800,
       release_year: 2019,
-      retail_price_cents: 1850,
+      retail_price_cents: 185000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -1175,7 +1175,7 @@ export const data = {
       release_date: "2019-05-25T07:00:00.000Z",
       release_date_unix: 1558767600,
       release_year: 2019,
-      retail_price_cents: 2500,
+      retail_price_cents: 250000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -1215,7 +1215,7 @@ export const data = {
       release_date: "2019-03-30T23:59:59.000Z",
       release_date_unix: 1553990399,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -1255,7 +1255,7 @@ export const data = {
       release_date: "2019-05-10T07:00:00.000Z",
       release_date_unix: 1557471600,
       release_year: 2019,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -1294,7 +1294,7 @@ export const data = {
       release_date: "2018-10-27T23:59:59.000Z",
       release_date_unix: 1540684799,
       release_year: 2018,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -1339,7 +1339,7 @@ export const data = {
       release_date: "2018-12-08T23:59:59.000Z",
       release_date_unix: 1544313599,
       release_year: 2018,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -1379,7 +1379,7 @@ export const data = {
       release_date: "2019-04-19T23:59:59.000Z",
       release_date_unix: 1555718399,
       release_year: 2019,
-      retail_price_cents: 1850,
+      retail_price_cents: 185000,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
@@ -1419,7 +1419,7 @@ export const data = {
       release_date: "2016-02-13T08:00:00.000Z",
       release_date_unix: 1455350400,
       release_year: 2016,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Air Jordan 4",
       size_range: [
@@ -1459,7 +1459,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 1000,
+      retail_price_cents: 100000,
       shoe_condition: "new_no_defects",
       silhouette: "Rally Pro",
       size_range: [
@@ -1504,7 +1504,7 @@ export const data = {
       release_date: "2018-11-26T23:59:59.000Z",
       release_date_unix: 1543276799,
       release_year: 2018,
-      retail_price_cents: 1000,
+      retail_price_cents: 100000,
       shoe_condition: "new_no_defects",
       silhouette: "Chuck 70",
       size_range: [
@@ -1550,7 +1550,7 @@ export const data = {
       release_date: "2015-05-14T23:59:59.000Z",
       release_date_unix: 1431647999,
       release_year: 2015,
-      retail_price_cents: 1200,
+      retail_price_cents: 120000,
       shoe_condition: "used",
       silhouette: "Chuck Taylor All Star",
       size_range: [
@@ -1590,7 +1590,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 2100,
+      retail_price_cents: 210000,
       shoe_condition: "used",
       silhouette: "Gucci Slide",
       size_range: [
@@ -1630,7 +1630,7 @@ export const data = {
       release_date: "2019-05-16T07:00:00.000Z",
       release_date_unix: 1557990000,
       release_year: 2019,
-      retail_price_cents: 1300,
+      retail_price_cents: 130000,
       shoe_condition: "new_no_defects",
       silhouette: "Kyrie 5",
       size_range: [
@@ -1669,7 +1669,7 @@ export const data = {
       release_date: "2019-04-13T07:00:00.000Z",
       release_date_unix: 1555138800,
       release_year: 2019,
-      retail_price_cents: 2000,
+      retail_price_cents: 200000,
       shoe_condition: "used",
       silhouette: "Air Max 97",
       size_range: [
@@ -1717,7 +1717,7 @@ export const data = {
       release_date: "2019-05-17T07:00:00.000Z",
       release_date_unix: 1558076400,
       release_year: 2019,
-      retail_price_cents: 1900,
+      retail_price_cents: 190000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Fear Of God Strap",
       size_range: [
@@ -1764,7 +1764,7 @@ export const data = {
       release_date: "2019-02-07T23:59:59.000Z",
       release_date_unix: 1549583999,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Max 90",
       size_range: [
@@ -1811,7 +1811,7 @@ export const data = {
       release_date: "2018-07-27T23:59:59.000Z",
       release_date_unix: 1532735999,
       release_year: 2018,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Presto",
       size_range: [
@@ -1876,7 +1876,7 @@ export const data = {
       release_date: "2019-05-30T07:00:00.000Z",
       release_date_unix: 1559199600,
       release_year: 2019,
-      retail_price_cents: 1800,
+      retail_price_cents: 180000,
       shoe_condition: "new_no_defects",
       silhouette: "LDV Waffle",
       size_range: [
@@ -1916,7 +1916,7 @@ export const data = {
       release_date: "2019-05-03T07:00:00.000Z",
       release_date_unix: 1556866800,
       release_year: 2019,
-      retail_price_cents: 1100,
+      retail_price_cents: 110000,
       shoe_condition: "new_no_defects",
       silhouette: "Blazer",
       size_range: [
@@ -1961,7 +1961,7 @@ export const data = {
       release_date: "2019-04-05T07:00:00.000Z",
       release_date_unix: 1554447600,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Max 2 Light",
       size_range: [
@@ -2001,7 +2001,7 @@ export const data = {
       release_date: "2018-08-30T23:59:59.000Z",
       release_date_unix: 1535673599,
       release_year: 2018,
-      retail_price_cents: 2100,
+      retail_price_cents: 210000,
       shoe_condition: "used",
       silhouette: "Air Force 1",
       size_range: [
@@ -2046,7 +2046,7 @@ export const data = {
       release_date: "2019-03-16T23:59:59.000Z",
       release_date_unix: 1552780799,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Max 90",
       size_range: [
@@ -2096,7 +2096,7 @@ export const data = {
       release_date: "2019-02-07T23:59:59.000Z",
       release_date_unix: 1549583999,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Max 90",
       size_range: [
@@ -2146,7 +2146,7 @@ export const data = {
       release_date: "2018-04-14T23:59:59.000Z",
       release_date_unix: 1523750399,
       release_year: 2018,
-      retail_price_cents: 2500,
+      retail_price_cents: 250000,
       shoe_condition: "used",
       silhouette: "Air VaporMax",
       size_range: [
@@ -2193,7 +2193,7 @@ export const data = {
       release_date: "2018-08-10T23:59:59.000Z",
       release_date_unix: 1533945599,
       release_year: 2018,
-      retail_price_cents: 1500,
+      retail_price_cents: 150000,
       shoe_condition: "used",
       silhouette: "Air Force 1",
       size_range: [
@@ -2256,7 +2256,7 @@ export const data = {
       release_date: "2019-04-22T23:59:59.000Z",
       release_date_unix: 1555977599,
       release_year: 2019,
-      retail_price_cents: 1000,
+      retail_price_cents: 100000,
       shoe_condition: "new_with_defects",
       silhouette: "Air Force 1",
       size_range: [
@@ -2295,7 +2295,7 @@ export const data = {
       release_date: "2019-02-26T23:59:59.000Z",
       release_date_unix: 1551225599,
       release_year: 2019,
-      retail_price_cents: 1500,
+      retail_price_cents: 150000,
       shoe_condition: "used",
       silhouette: "Air Force 1",
       size_range: [
@@ -2334,7 +2334,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 1900,
+      retail_price_cents: 190000,
       shoe_condition: "used",
       silhouette: "Air Force 1",
       size_range: [
@@ -2383,7 +2383,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 1900,
+      retail_price_cents: 190000,
       shoe_condition: "used",
       silhouette: "Air Force 1",
       size_range: [
@@ -2423,7 +2423,7 @@ export const data = {
       release_date: "2019-02-08T23:59:59.000Z",
       release_date_unix: 1549670399,
       release_year: 2019,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "new_with_defects",
       silhouette: "Air Max 97",
       size_range: [
@@ -2491,7 +2491,7 @@ export const data = {
       release_date: "2019-04-27T07:00:00.000Z",
       release_date_unix: 1556348400,
       release_year: 2019,
-      retail_price_cents: 1900,
+      retail_price_cents: 190000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Fear Of God Strap",
       size_range: [
@@ -2538,7 +2538,7 @@ export const data = {
       release_date: "2019-04-27T07:00:00.000Z",
       release_date_unix: 1556348400,
       release_year: 2019,
-      retail_price_cents: 1700,
+      retail_price_cents: 170000,
       shoe_condition: "new_no_defects",
       silhouette: "Air Fear of God Moccasin",
       size_range: [
@@ -2606,7 +2606,7 @@ export const data = {
       release_date: "2019-05-14T07:00:00.000Z",
       release_date_unix: 1557817200,
       release_year: 2019,
-      retail_price_cents: 2500,
+      retail_price_cents: 250000,
       shoe_condition: "new_no_defects",
       silhouette: "Air VaporMax",
       size_range: [
@@ -2646,7 +2646,7 @@ export const data = {
       release_date: "2017-08-01T23:59:59.000Z",
       release_date_unix: 1501631999,
       release_year: 2017,
-      retail_price_cents: 1600,
+      retail_price_cents: 160000,
       shoe_condition: "used",
       silhouette: "Air Max 97",
       size_range: [
@@ -2686,7 +2686,7 @@ export const data = {
       release_date: "2018-03-02T23:59:59.000Z",
       release_date_unix: 1520035199,
       release_year: 2018,
-      retail_price_cents: 1500,
+      retail_price_cents: 150000,
       shoe_condition: "used",
       silhouette: "Air Max 270",
       size_range: [
@@ -2731,7 +2731,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 2600,
+      retail_price_cents: 260000,
       shoe_condition: "used",
       silhouette: "Old Skool",
       size_range: [
@@ -2771,7 +2771,7 @@ export const data = {
       release_date: "2019-06-08T23:59:59.000Z",
       release_date_unix: 1560038399,
       release_year: 2019,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "new_no_defects",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -2811,7 +2811,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 3000,
+      retail_price_cents: 300000,
       shoe_condition: "new_no_defects",
       silhouette: "Yeezy Boost 700",
       size_range: [
@@ -2857,7 +2857,7 @@ export const data = {
       release_date: "2017-12-16T23:59:59.000Z",
       release_date_unix: 1513468799,
       release_year: 2017,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -2897,7 +2897,7 @@ export const data = {
       release_date: "2019-05-03T07:00:00.000Z",
       release_date_unix: 1556866800,
       release_year: 2019,
-      retail_price_cents: 2500,
+      retail_price_cents: 250000,
       shoe_condition: "new_no_defects",
       silhouette: "NMD Human Race Trail",
       size_range: [
@@ -2964,7 +2964,7 @@ export const data = {
       release_date: "2019-04-27T23:59:59.000Z",
       release_date_unix: 1556409599,
       release_year: 2019,
-      retail_price_cents: 3000,
+      retail_price_cents: 300000,
       shoe_condition: "new_no_defects",
       silhouette: "Yeezy Boost 700",
       size_range: [
@@ -3028,7 +3028,7 @@ export const data = {
       release_date: "2019-05-25T23:59:59.000Z",
       release_date_unix: 1558828799,
       release_year: 2019,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "new_no_defects",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3074,7 +3074,7 @@ export const data = {
       release_date: "2017-11-25T23:59:59.000Z",
       release_date_unix: 1511654399,
       release_year: 2017,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3121,7 +3121,7 @@ export const data = {
       release_date: "2019-03-09T23:59:59.000Z",
       release_date_unix: 1552175999,
       release_year: 2019,
-      retail_price_cents: 3000,
+      retail_price_cents: 300000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 700",
       size_range: [
@@ -3161,7 +3161,7 @@ export const data = {
       release_date: "2018-11-23T23:59:59.000Z",
       release_date_unix: 1543017599,
       release_year: 2018,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3211,7 +3211,7 @@ export const data = {
       release_date: "2017-11-01T23:59:59.000Z",
       release_date_unix: 1509580799,
       release_year: 2017,
-      retail_price_cents: 3000,
+      retail_price_cents: 300000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 700",
       size_range: [
@@ -3260,7 +3260,7 @@ export const data = {
       release_date: "2018-12-27T23:59:59.000Z",
       release_date_unix: 1545955199,
       release_year: 2018,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3305,7 +3305,7 @@ export const data = {
       release_date: "2019-01-26T23:59:59.000Z",
       release_date_unix: 1548547199,
       release_year: 2019,
-      retail_price_cents: 1500,
+      retail_price_cents: 150000,
       shoe_condition: "new_no_defects",
       silhouette: "Solar Hu",
       size_range: [
@@ -3373,7 +3373,7 @@ export const data = {
       release_date: "2019-03-30T23:59:59.000Z",
       release_date_unix: 1553990399,
       release_year: 2019,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "new_no_defects",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3425,7 +3425,7 @@ export const data = {
       release_date: "2017-04-29T23:59:59.000Z",
       release_date_unix: 1493510399,
       release_year: 2017,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3470,7 +3470,7 @@ export const data = {
       release_date: "2019-02-23T23:59:59.000Z",
       release_date_unix: 1550966399,
       release_year: 2019,
-      retail_price_cents: 3000,
+      retail_price_cents: 300000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 700",
       size_range: [
@@ -3516,7 +3516,7 @@ export const data = {
       release_date: "2017-02-25T23:59:59.000Z",
       release_date_unix: 1488067199,
       release_year: 2017,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3556,7 +3556,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 1700,
+      retail_price_cents: 170000,
       shoe_condition: "new_no_defects",
       silhouette: "NMD Runner",
       size_range: [
@@ -3603,7 +3603,7 @@ export const data = {
       release_date: "2018-06-30T23:59:59.000Z",
       release_date_unix: 1530403199,
       release_year: 2018,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3643,7 +3643,7 @@ export const data = {
       release_date: "2017-11-18T23:59:59.000Z",
       release_date_unix: 1511049599,
       release_year: 2017,
-      retail_price_cents: 2200,
+      retail_price_cents: 220000,
       shoe_condition: "used",
       silhouette: "Yeezy Boost 350",
       size_range: [
@@ -3683,7 +3683,7 @@ export const data = {
       release_date: null,
       release_date_unix: null,
       release_year: null,
-      retail_price_cents: 1800,
+      retail_price_cents: 180000,
       shoe_condition: "used",
       silhouette: "NMD Runner",
       size_range: [

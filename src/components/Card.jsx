@@ -63,7 +63,7 @@ const Card = ({ shoe }) => {
                 Add to Cart
               </button>
             )}
-            <span className="text-xl font-semibold">$ {price}</span>
+            <span className="text-xl font-semibold">$ {price / 100}</span>
           </div>
         </div>
       </div>

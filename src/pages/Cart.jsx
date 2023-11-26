@@ -24,8 +24,8 @@ const Cart = () => {
 
   useEffect(() => {
     setTotal(
-      cart.reduce((acc, curr) => acc + curr.retail_price_cents * curr.qty, 0)
-    );
+      cart.reduce((acc, curr) => acc + curr.retail_price_cents * curr.qty, 0) / 100
+    )
   }, [cart]);
 
   const checkoutStyle = {
@@ -90,11 +90,10 @@ const Cart = () => {
                     TOTAL ITEMS : {cart.length}
                   </h1>
                   <h1 className="text-xl dark:text-white md:text-5xl font-bold text-slate-500">
-                    TOTAL PRICE : $ <span id="cart-total">{total}</span>
+                    TOTAL PRICE : <span id="cart-total">{total}</span>
                   </h1>
                 </div>
-                <div style={{ ...checkoutStyle }} id="tonder-checkout">
-                </div>
+                <div style={{ ...checkoutStyle }} id="tonder-checkout"></div>
               </div>
             )}
           </div>
