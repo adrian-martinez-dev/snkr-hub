@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import CartCard from "../components/CartCard";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
@@ -8,7 +8,6 @@ import { InlineCheckout } from "tonder-sdk-test";
 import toast from "react-hot-toast";
 
 const Cart = () => {
-  const tonderLoaded = useRef(false);
   const cart = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
@@ -36,7 +35,6 @@ const Cart = () => {
   };
 
   useEffect(()=>{
-    if (tonderLoaded.current) return
     const items = cart.map(item => ({
       "description": item.description,
       "quantity": item.qty,
@@ -55,7 +53,6 @@ const Cart = () => {
       cb: tonderResponse,
       items,
     });
-    tonderLoaded.current = true;
     inlineCheckout.injectCheckout();
     return () => inlineCheckout.removeCheckout()
   }, [])
