@@ -34,7 +34,7 @@ export const data = {
       release_date: "2019-05-18T07:00:00.000Z",
       release_date_unix: 1558162800,
       release_year: 2019,
-      retail_price_cents: 200000,
+      retail_price_cents: 2050,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 7",
       size_range: [
@@ -78,7 +78,7 @@ export const data = {
       release_date: "2019-02-15T23:59:59.000Z",
       release_date_unix: 1550275199,
       release_year: 2019,
-      retail_price_cents: 160000,
+      retail_price_cents: 16050,
       shoe_condition: "used",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -118,7 +118,7 @@ export const data = {
       release_date: "2019-04-12T23:59:59.000Z",
       release_date_unix: 1555113599,
       release_year: 2019,
-      retail_price_cents: 160000,
+      retail_price_cents: 1600,
       shoe_condition: "new_no_defects",
       silhouette: "Air Jordan 1",
       size_range: [
@@ -158,7 +158,7 @@ export const data = {
       release_date: "2019-05-07T07:00:00.000Z",
       release_date_unix: 1557212400,
       release_year: 2019,
-      retail_price_cents: 185000,
+      retail_price_cents: 185,
       shoe_condition: "used",
       silhouette: "Air Jordan 11",
       size_range: [
