@@ -34,7 +34,7 @@ const Cart = () => {
     transition: "max-height 0.3s",
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     const items = cart.map(item => ({
       "description": item.description,
       "quantity": item.qty,
@@ -45,17 +45,16 @@ const Cart = () => {
     }))
 
     const apiKey = import.meta.env.VITE_TONDER_API_KEY;
-    const totalElement = document.querySelector("#cart-total");
     const inlineCheckout = new InlineCheckout({
       apiKey: apiKey,
-      totalElementId: totalElement,
       returnUrl: window.location.href,
       cb: tonderResponse,
       items,
+      cartTotal: total,
     });
     inlineCheckout.injectCheckout();
     return () => inlineCheckout.removeCheckout()
-  }, [])
+  }, [total])
 
   return (
     <div>
