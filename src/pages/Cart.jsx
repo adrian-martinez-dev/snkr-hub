@@ -3,16 +3,17 @@ import CartCard from "../components/CartCard";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { checkoutCart } from "../redux/slices/CartSlice";
-import { InlineCheckout } from "tonder-sdk-test";
+import { useTonder } from "../providers/TonderProvider.jsx"
 
 import toast from "react-hot-toast";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
   const dispatch = useDispatch();
-
   const [total, setTotal] = useState(0);
   const navigate = useNavigate();
+
+  const tonder = useTonder()
 
   const tonderResponse = (data) => {
     console.log('data: ', data)
@@ -23,10 +24,16 @@ const Cart = () => {
   }
 
   useEffect(() => {
-    setTotal(
-      cart.reduce((acc, curr) => acc + curr.retail_price_cents * curr.qty, 0) / 100
-    )
-  }, [cart]);
+    tonder.injectCheckout()
+    tonder.setCallback(tonderResponse)
+    return () => tonder.removeCheckout()
+  }, [tonder])
+
+  useEffect(() => {
+    const cartTotal = cart.reduce((acc, curr) => acc + curr.retail_price_cents * curr.qty, 0) / 100
+    setTotal(cartTotal)
+    tonder.setCartTotal(cartTotal)
+  }, [cart, tonder]);
 
   const checkoutStyle = {
     marginTop: "2rem",
@@ -43,18 +50,8 @@ const Cart = () => {
       "name": item.name,
       "amount_total": parseFloat((parseFloat(item.retail_price_cents) * parseFloat(item.qty)).toFixed(2))
     }))
-
-    const apiKey = import.meta.env.VITE_TONDER_API_KEY;
-    const inlineCheckout = new InlineCheckout({
-      apiKey: apiKey,
-      returnUrl: window.location.href,
-      cb: tonderResponse,
-      items,
-      cartTotal: total,
-    });
-    inlineCheckout.injectCheckout();
-    return () => inlineCheckout.removeCheckout()
-  }, [total])
+    tonder.setCartItems(items)
+  }, [cart, tonder])
 
   return (
     <div>
